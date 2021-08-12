@@ -1,0 +1,11 @@
+{
+    "name": "alantbarlow/github-pages-dev-env",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    //"workspaceMount": "source=${localWorkspaceFolder}/sub-folder,target=/workspace,type=bind,consistency=delegated",
+    //"workspaceFolder": "/",
+    "forwardPorts": [
+        4000
+    ]
+}
